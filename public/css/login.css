@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+div.top-header{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo, form{
+    width: 50%;
+    padding: 10px;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 10px;
+}
+header nav{
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+
+header form input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 80%;
+    margin-top: 10%;
+}
+header form button{
+    background-color: #FFF;
+    color: #666;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 376px){
+    div.burger-menu {
+        display: none;
+    }
+    header div.logo, div.barra, form.barra-nav{
+        width: 33%;
+    }
+    div.barra {
+        font-size: 12px;
+    }
+}
+
+form.login {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30%;
+    padding: 15px;
+}
+
+form.login label {
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;  
+}
+
+form.login label .check {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+form.login input {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+form.login button {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    width: 33.33%;
+    margin-left: 33.33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
