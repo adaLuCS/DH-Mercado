@@ -324,7 +324,7 @@ form div.categoria label.check {
     width: 50%;
 }
 
-article div.main-article:hover h4.description{
+article:hover h4.description{
     display: inline-block;
     transition: all 1s;
 }
